@@ -1,51 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-27T11:50:56 IST" name="Default suite" finished-at="2025-03-27T11:51:06 IST" duration-ms="10214">
+  <suite started-at="2025-03-27T12:23:25 IST" name="Default suite" finished-at="2025-03-27T12:23:36 IST" duration-ms="11422">
     <groups>
     </groups>
-    <test started-at="2025-03-27T11:50:56 IST" name="Default test" finished-at="2025-03-27T11:51:06 IST" duration-ms="10214">
-      <class name="DataProviders.DataProviderStart2503">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProviders.DataProviderStart2503@10683d9d]" started-at="2025-03-27T11:50:56 IST" name="setup" finished-at="2025-03-27T11:51:01 IST" duration-ms="4878" status="PASS">
+    <test started-at="2025-03-27T12:23:25 IST" name="Default test" finished-at="2025-03-27T12:23:36 IST" duration-ms="11422">
+      <class name="com.tests.DashBoardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.DashBoardTest@4b2bac3f]" started-at="2025-03-27T12:23:25 IST" name="setup" finished-at="2025-03-27T12:23:33 IST" duration-ms="7797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="search(java.lang.String)[pri:0, instance:DataProviders.DataProviderStart2503@10683d9d]" started-at="2025-03-27T11:51:01 IST" name="search" data-provider="testData" finished-at="2025-03-27T11:51:01 IST" duration-ms="302" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Selenium]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Validcredentials()[pri:0, instance:com.tests.DashBoardTest@4b2bac3f]" started-at="2025-03-27T12:23:33 IST" name="Validcredentials" finished-at="2025-03-27T12:23:36 IST" duration-ms="3363" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:DataProviders.DataProviderStart2503@10683d9d]" started-at="2025-03-27T11:51:01 IST" name="teardown" finished-at="2025-03-27T11:51:02 IST" duration-ms="411" status="PASS">
+        </test-method> <!-- Validcredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.DashBoardTest@4b2bac3f]" started-at="2025-03-27T12:23:36 IST" name="close" finished-at="2025-03-27T12:23:36 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProviders.DataProviderStart2503@10683d9d]" started-at="2025-03-27T11:51:02 IST" name="setup" finished-at="2025-03-27T11:51:06 IST" duration-ms="3790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="search(java.lang.String)[pri:0, instance:DataProviders.DataProviderStart2503@10683d9d]" started-at="2025-03-27T11:51:06 IST" name="search" data-provider="testData" finished-at="2025-03-27T11:51:06 IST" duration-ms="542" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TestNG]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:DataProviders.DataProviderStart2503@10683d9d]" started-at="2025-03-27T11:51:06 IST" name="teardown" finished-at="2025-03-27T11:51:06 IST" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- DataProviders.DataProviderStart2503 -->
+        </test-method> <!-- close -->
+      </class> <!-- com.tests.DashBoardTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
