@@ -9,7 +9,7 @@ public class Group2103 {
 		System.out.println("Login the application");
 	}
 	@Test(alwaysRun=true,groups= {"regressiontest","smoketest"})
-	public void f1()
+	public void f1()    
 	{
 		System.out.println("Manage the application");
 	}

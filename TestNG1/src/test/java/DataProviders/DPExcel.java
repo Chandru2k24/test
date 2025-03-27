@@ -16,7 +16,7 @@ public class DPExcel {
 	@DataProvider(name="excelData",parallel=true)
 	public Object[][] excelDataprovider() throws IOException
 	{
-		Object[][] arrobj=getExcelData("C:\\Users\\Lenovo\\Desktop\\Test1.xlsx","Sheet1");
+		Object[][] arrobj=getExcelData("C:\\Users\\drcha\\Downloads\\Test1.xlsx","Sheet1");
 		return arrobj;
 		
 	}
