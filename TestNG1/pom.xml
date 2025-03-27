@@ -3,7 +3,7 @@
   <groupId>com.Test1</groupId>
   <artifactId>TestNG1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>expleo_sample</name>
+  <name>TestNG1</name>
   <url>http://www.example.com</url>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
